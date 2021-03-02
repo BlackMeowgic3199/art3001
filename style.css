@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     height: auto;
+    align-items: center;
 }
 
 .wrapper {
@@ -16,6 +17,7 @@ body {
 nav {
     background: aliceblue;
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(19, 5vw);
     grid-template-rows: repeat(12, 5vw);
@@ -23,7 +25,8 @@ nav {
 
 .bioBox {
     background: bisque;
-    height: 40vh;
+    height: 38vh;
+    width: 100%;
 }
 
 .bioLink {
@@ -175,7 +178,70 @@ nav {
     grid-column: 11/11;
     grid-row: 3/3;
 }
-
+.bO_21{
+    grid-column: 2/2;
+    grid-row: 9/9;
+}
+.bO_22{
+    grid-column: 4/4;
+    grid-row: 9/9;
+}
+.bO_23{
+    grid-column: 1/1;
+    grid-row: 10/10;
+}
+.bO_24{
+    grid-column: 3/3;
+    grid-row: 10/10;
+}
+.bO_25{
+    grid-column: 5/5;
+    grid-row: 10/10;
+}
+.bO_26{
+    grid-column: 2/2;
+    grid-row: 11/11;
+}
+.bO_27{
+    grid-column: 4/4;
+    grid-row: 11/11;
+}
+.bO_28{
+    grid-column: 3/3;
+    grid-row: 12/12;
+}
+.bO_29{
+    grid-column: 16/16;
+    grid-row: 9/9;
+}
+.bO_30{
+    grid-column: 18/18;
+    grid-row: 9/9;
+}
+.bO_31{
+    grid-column: 15/15;
+    grid-row: 10/10;
+}
+.bO_32{
+    grid-column: 17/17;
+    grid-row: 10/10;
+}
+.bO_33{
+    grid-column: 19/19;
+    grid-row: 10/10;
+}
+.bO_34{
+    grid-column: 16/16;
+    grid-row: 11/11;
+}
+.bO_35{
+    grid-column: 18/18;
+    grid-row: 11/11;
+}
+.bO_36{
+    grid-column: 17/17;
+    grid-row: 12/12;
+}
 .mO_1{
     grid-column: 6/9;
     grid-row: 3/4;
@@ -191,6 +257,30 @@ nav {
 .rO_2{
     grid-column: 11/16;
     grid-row: 4/5;
+}
+.rO_3{
+    grid-column: 2/2;
+    grid-row: 10/10;
+}
+.rO_4{
+    grid-column: 4/4;
+    grid-row: 10/10;
+}
+.rO_5{
+    grid-column: 3/3;
+    grid-row: 11/11;
+}
+.rO_6{
+    grid-column: 16/16;
+    grid-row: 10/10;
+}
+.rO_7{
+    grid-column: 18/18;
+    grid-row: 10/10;
+}
+.rO_8{
+    grid-column: 17/17;
+    grid-row: 11/11;
 }
 .oO_1{
     grid-column: 5/16;
