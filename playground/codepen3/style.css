@@ -1,0 +1,40 @@
+h1 {
+    font-size: 10vw;
+    cursor: pointer;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 66.66%;
+    margin: 10vw auto;
+    line-height: 1;
+      
+  }
+  
+  h1 span {
+    transition: color 3s;
+  }
+  
+  h1 span:nth-child(1n):hover {
+    color: red;
+  }
+  
+  h1 span:nth-child(2n):hover {
+    color: rgb(255, 136, 0);
+  }
+  
+  h1 span:nth-child(3n):hover {
+    color: yellow;
+  }
+
+  h1 span:nth-child(4n):hover {
+    color: rgb(0, 255, 42);
+  }
+
+  h1 span:nth-child(5n):hover {
+    color: rgb(55, 0, 255);
+  }
+  
+  h1 span:hover {
+    color: green;
+    transition: color 0s;
+  }
