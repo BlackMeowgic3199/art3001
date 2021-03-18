@@ -19,3 +19,6 @@ function _toArray(arr) {
   }
   
   makeSpans('h1')
+  makeSpans('h3')
+
+  

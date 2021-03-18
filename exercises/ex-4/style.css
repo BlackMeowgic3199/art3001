@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+
+/** Title*/
 body {
     background-color: #ffffff;
   }
@@ -58,6 +63,7 @@ body {
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   }
   
+  /** Links*/
   .body{
     margin: 0;
   }
@@ -75,7 +81,7 @@ body {
   .topnav a {
     float: center;
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 15px 16px;
     text-decoration: coral;
@@ -100,11 +106,16 @@ body {
       width: 100%;
     }
   }
+
+  /** About LGBTQ*/
   .list{
     text-align: center;
     font-size: 25px;
+    padding: 2%;
+    font-family: 'Fredoka One', cursive;
   }
   
+  /** Our History*/
   .history{
     align-items: center;
     display: flex;
@@ -163,6 +174,72 @@ body {
     transition: color 0s;
   }
   
+  /** History Video*/
   .video1{
     text-align: center;
   }
+
+  /** Title*/
+.religion{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    font-size: 45px;
+}
+h3 {
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 66.66%;
+  margin: 5vw auto;
+  line-height: 1;    
+}
+h3 span {
+  transition: color 3s;
+}
+h3 span:nth-child(1n):hover {
+  color: red;
+}
+h3 span:nth-child(2n):hover {
+  color: rgb(255, 136, 0);
+}
+h3 span:nth-child(3n):hover {
+  color: yellow;
+}
+h3 span:nth-child(4n):hover {
+  color: rgb(0, 255, 42);
+}
+h3 span:nth-child(5n):hover {
+  color: rgb(25, 0, 255);
+}
+h3 span:nth-child(6n):hover {
+  color: rgb(78, 5, 197);
+}
+h3 span:nth-child(7n):hover {
+  color: rgb(128, 0, 233);
+}
+h3 span:nth-child(8n):hover {
+  color: rgb(255, 8, 0);
+}
+h3 span:nth-child(9n):hover {
+  color: rgb(255, 174, 0);
+}
+h3 span:nth-child(10n):hover {
+  color: rgb(237, 253, 6);
+}
+h3 span:nth-child(11n):hover {
+  color: rgb(0, 233, 31);
+}
+h3 span:hover {
+  color: green;
+  transition: color 0s;
+}
+
+/** Hate Image*/
+.hate1{
+  text-align: center;
+}
+ 
