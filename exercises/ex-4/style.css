@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
 /** Title*/
 body {
@@ -90,13 +91,13 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(247, 2, 206);
   }
-  .column {
+  .column1 {
     float: left;
     width: 100%;
     text-align: center;
     font-size: 20px;
   }
-  .row:after {
+  .row1:after {
     content: "";
     display: table;
     clear: both;
@@ -188,7 +189,7 @@ body {
     font-size: 45px;
 }
 h3 {
-  font-size: 90px;
+  font-size: 80px;
   cursor: pointer;
   text-align: center;
   font-family: sans-serif;
@@ -238,8 +239,116 @@ h3 span:hover {
   transition: color 0s;
 }
 
-/** Hate Image*/
-.hate1{
-  text-align: center;
+
+/** LOVE*/
+.container {
+  margin: 0;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: (131,131,131);
 }
+.letters {
+  width: 20vw;
+  height: 20vw;
+  float: center;
+  mix-blend-mode: normal;
+}
+.letter-l {
+  background-color: #1e00ff;
+  clip-path: polygon(0 0, 50% 0, 50% 65%, 100% 65%, 100% 100%, 0 100%);
+}
+.letter-o {
+  background-color: #ff0061;
+  clip-path: circle(50%);
+  margin-left: -8vw;
+}
+.letter-v {
+  background-color: #e1ff00;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  margin-left: -6vw;
+}
+.letter-e {
+  background-color: #00ff40;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 35%,
+    50% 35%,
+    50% 40%,
+    100% 40%,
+    100% 60%,
+    50% 60%,
+    50% 65%,
+    100% 65%,
+    100% 100%,
+    0 100%
+  );
+  margin-left: -4vw;
+}
+
+/** Self-typing text*/
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
  
+  font-family:Khula;
+  font-size: 80px;
+  text-align:center;
+  height:200px;
+  width:1000px;
+  display:block;
+  position: relative;
+  color:white;
+  top:5-px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+.leftside {
+  height:10vh;
+  width:100%;
+  background-color: rgb(255, 0, 0);
+}
+.leftside2 {
+  height:10vh;
+  width:100%;
+  background-color: rgb(243, 149, 8);
+}
+.leftside3 {
+  height:10vh;
+  width:100%;
+  background-color: rgb(249, 253, 16);
+}
+.leftside4 {
+  height:10vh;
+  width:100%;
+  background-color: rgb(6, 211, 33);
+}
+.leftside5 {
+  height:10vh;
+  width:100%;
+  background-color: rgb(42, 21, 233);
+}
+.leftside6 {
+  height:10vh;
+  width:100%;
+  background-color: rgb(146, 9, 158);
+}
+
