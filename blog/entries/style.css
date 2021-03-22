@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   font-family: monospace;
+  font-size: 30px;
   justify-content: center;
   background-color: #1d212b;
 }
