@@ -22,7 +22,7 @@ function _toArray(arr) {
   makeSpans('h3')
 
  // function([string1, string2],target id,[color1,color2])    
- consoleText(['“It is absolutely imperative that every human being’s freedom and human rights are respected, all over the world.”– Jóhanna Sigurðardóttir', '“Equality means more than passing laws. The struggle is really won in the hearts and minds of the community, where it really counts.” – Barbara Gittings', '“Nature made a mistake, which I have corrected.” – Christine Jorgensen', '“The Lord is my Shepherd and he knows I’m gay.” – Troy Perry', '“The richness, beauty and depths of love can only be fully experienced in a climate of complete openness, honesty and vulnerability.” – Anthony Venn Brown'], 'text',['red','orange','yellow','lightgreen']);
+ consoleText(['“It is absolutely imperative that every human being’s freedom and human rights are respected, all over the world.”– Jóhanna Sigurðardóttir', '“Equality means more than passing laws. The struggle is really won in the hearts and minds of the community, where it really counts.” – Barbara Gittings', '“Nature made a mistake, which I have corrected.” – Christine Jorgensen', '“The Lord is my Shepherd and he knows I’m gay.” – Troy Perry', '“The richness, beauty and depths of love can only be fully experienced in a climate of complete openness, honesty and vulnerability.” – Anthony Venn Brown'], 'text',['darkred','orange','yellow','lightgreen','darkblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
