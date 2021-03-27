@@ -9170,5 +9170,44 @@ body {
     }
   }
 
+  .gallery1 {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery1:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc1 {
+    padding: 15px;
+    text-align: center;
+  }
 
-
+  .container {
+    width: 60%;
+    margin: 2rem auto; 
+  }
+  
+.LGBTQphotos{
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  margin: 0
+}
+.LGBTQphotos img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.LGBTQphotos img:nth-child(2){
+  grid-column: auto;
+}
