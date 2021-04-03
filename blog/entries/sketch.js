@@ -36,5 +36,4 @@ $(document).ready(function(e) {
   });
 });
 
-
-
+/*Blog J*/
