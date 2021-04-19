@@ -434,17 +434,658 @@ body {
   grid-row: auto / span 2;
 }
 .LGBTQphotos img:nth-child(4){
-  grid-row: auto / span 2
+  grid-row: auto / span 3
 }
 .LGBTQphotos img:nth-child(5){
 grid-row: auto / span 2;
 }
 .LGBTQphotos img:nth-child(6){
-  grid-row: auto / span 2;
+  grid-row: auto / span 3;
 }
 .LGBTQphotos img:nth-child(7){
   grid-row: auto / span 2;
 }
+.LGBTQphotos img:nth-child(8){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(9){
+grid-row: auto / span 3;
+}
+.LGBTQphotos img:nth-child(10){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(11){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(12){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(13){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(14){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(15){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(16){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(17){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(18){
+  grid-row: auto / span 2;
+}
+.LGBTQphotos img:nth-child(19){
+  grid-row: auto / span 2;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ff0000;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.text1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container2 {
+  position: relative;
+  width: 100%;
+  grid-column: auto / span 2;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c99402;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+.text2 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container3 {
+  position: relative;
+  width: 100%;
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #eff300;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+.text3 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container4 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 3
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00cf23;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+.text4 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container5 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2
+}
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000cba;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+.text5 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container6 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 3
+}
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: indigo;
+}
+
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+.text6 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container7 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2
+}
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: violet;
+}
+
+.container7:hover .overlay7 {
+  opacity: 1;
+}
+.text7 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container8 {
+  position: relative;
+  width: 100%;
+  grid-column: auto / span 1;
+  grid-row: auto / span 2;
+}
+.overlay8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+
+.container8:hover .overlay8 {
+  opacity: 1;
+}
+.text8 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container9 {
+  position: relative;
+  width: 100%;
+  grid-column: auto / span 2;
+}
+.overlay9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: orange;
+}
+
+.container9:hover .overlay9 {
+  opacity: 1;
+}
+.text9 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container10 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 3;
+  grid-column: auto / span 2
+}
+.overlay10 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cedd02;
+}
+
+.container10:hover .overlay10 {
+  opacity: 1;
+}
+.text10 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container11 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 3
+}
+.overlay11 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(4, 212, 4);
+}
+
+.container11:hover .overlay11 {
+  opacity: 1;
+}
+.text11 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container12 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 4
+}
+.overlay12 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0d00c4;
+}
+
+.container12:hover .overlay12 {
+  opacity: 1;
+}
+.text12 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container13 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 4
+}
+.overlay13 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: indigo;
+}
+
+.container13:hover .overlay13 {
+  opacity: 1;
+}
+.text13 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container14 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 4
+}
+.overlay14 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: violet;
+}
+
+.container14:hover .overlay14 {
+  opacity: 1;
+}
+.text14 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container15 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2;
+  grid-column: auto / span 2;
+}
+.overlay15 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+
+.container15:hover .overlay15 {
+  opacity: 1;
+}
+.text15 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container16 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 3
+}
+.overlay16 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: orange;
+}
+
+.container16:hover .overlay16 {
+  opacity: 1;
+}
+.text16 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container17 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2
+}
+.overlay17 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: yellow;
+}
+
+.container17:hover .overlay17 {
+  opacity: 1;
+}
+.text17 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container18 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 1;
+  grid-column: auto / span 2;
+}
+.overlay18 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 184, 0);
+}
+
+.container18:hover .overlay18 {
+  opacity: 1;
+}
+.text18 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container19 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2;
+  grid-column: auto / span 2;
+}
+.overlay19 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2600cf;
+}
+.container19:hover .overlay19 {
+  opacity: 1;
+}
+.text19 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container20 {
+  position: relative;
+  width: 100%;
+  grid-row: auto / span 2
+}
+.overlay20 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: indigo;
+}
+
+.container20:hover .overlay20 {
+  opacity: 1;
+}
+.text20 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 /**FOOTER*/
 @import url("https://fonts.googleapis.com/css?family=Lato:100");
 html,
@@ -868,4 +1509,5 @@ body {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+
 
